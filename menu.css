@@ -1,0 +1,136 @@
+body{
+    background: url("/images/black\ bg.jpg");
+    background-size: cover;
+    color: white ;
+}
+.tittle {
+    color: orange;
+    font-size: 45px;
+    font-weight: bold;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.table{
+    width: 100%;
+    border: 5;
+    color: white;
+    padding-top: 10px;
+}
+.heading{
+    font-size: 25px;
+    font-weight: bold;
+    color: orange;
+}
+.type{
+    font-size: 25px;
+    text-align: center;
+}
+.price{
+    font-size: 25px;
+    text-align: center;
+}
+.stock{
+    text-align: center;
+}
+.btn{
+    font-size: 25px;
+    background: none;
+    color: white;
+    border: none;
+    cursor: pointer;
+    
+}
+.btn:hover{
+    background-color: orange;
+}
+
+.row:hover{
+    background-color: rgb(244, 191, 91);
+    
+}
+.footer{
+    background:var(--black);
+    text-align: center;
+    padding: 20px,0;
+    height: 20%;
+}
+.footer.share{
+    padding: 20px 0;
+}
+.footer .share .a{
+    height: 40px;
+    width: 40px;
+    line-height:7rem;
+    font-size: 20px;
+    color:#fff;
+    border:var(--border);
+    margin:.7rem;
+    border-radius: 50%;
+    text-decoration: none;
+}
+.footer{
+    background:var(--black);
+    text-align: center;
+    padding: 50px,0;
+    background-color:rgb(24, 24, 24)
+}
+
+.footer .share{
+    padding: 20px 0;
+}
+
+.footer .share a{
+    height: 40px;
+    width: 40px;
+    line-height:3rem;
+    font-size: 20px;
+    color:#fff;
+    border:var(--border);
+    margin:.7rem;
+    border-radius: 50%;
+    text-decoration: none;
+}
+
+.footer .share a:hover{
+    background-color:orange;
+}
+
+.footer .links{
+    display: flex;
+    justify-content: center;
+    gap:3rem;
+}
+
+.footer .links a{
+    padding:20rem,30rem;
+    color:white;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    border-left: 2px solid white;
+    border-right: 2px solid white;
+    border-radius: 2px;
+    padding: 10px;
+}
+
+.footer .links a:hover{
+    background:orange;
+    color: black;
+}
+
+.footer .credit{
+    font-size: 20px;
+    color:#fff;
+    font-weight: lighter;
+    padding:2rem;
+}
+
+.footer .credit span{
+    color:orange;
+}
+
+
+
+  
